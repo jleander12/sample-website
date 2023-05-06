@@ -86,7 +86,8 @@ img {
 
 .center {
   text-align: center;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 button {
@@ -137,4 +138,15 @@ a {
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info {
+  font-size: 18px;
+  color: #1F2937;
 }
