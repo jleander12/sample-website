@@ -55,8 +55,7 @@ body {
   margin-top: auto;
   height: auto;
   display: flex;
-  background: #eeeeee;
-  padding: 8px;
+  padding: 32px;
 }
 
 .left-links {
@@ -73,8 +72,9 @@ body {
   flex: 0 1 auto;
   margin: 0px 0px 0px auto;
   display: flex;
-  gap: 8px;
+  gap: 32px;
   align-content: center;
+  padding-right: 40px;
 }
 
 img {
@@ -90,6 +90,12 @@ img {
   margin: 0 auto;
 }
 
+.modal {
+  background: #3882F6;
+  padding: 0px 32px;
+  border-radius: 8px;
+}
+
 button {
   border: none;
   padding: 8px 16px;
@@ -98,6 +104,7 @@ button {
   font-size: 18px;
   font-weight: bold;
   color: #E5E7EB;
+  font-family: Roboto, sans-serif;
 }
 
 input {
@@ -128,25 +135,60 @@ a {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+  font-family: Roboto, sans-serif;
 }
 
 .secondary, .link {
   font-size: 18px;
   color: #E5E7EB;
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
 }
 
 .info-header {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  font-family: Roboto, sans-serif;
 }
 
 .info {
   font-size: 18px;
   color: #1F2937;
+  font-family: Roboto, sans-serif;
+}
+
+.quote-background {
+  background: #E5E7EB;
+}s
+
+#inspiration {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+#thor {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+  margin-top: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+#call-to-action {
+  border: solid;
+  border-color: #F9FAF8;
 }
